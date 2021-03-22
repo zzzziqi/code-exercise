@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  /* opacity: 0; */
+  /* transition: all 0.2s ease; */
+}
+
+span {
+  /* opacity: 0; */
+  transition: all 0.5s ease;
+  /* transform: translateY(50px);
+  display: inline-block; */
+}
+span.change {
+  /* opacity: 1; */
+  /* transform: translateY(0px); */
+  color: lightblue;
+  /* opacity: 1; */
+}
