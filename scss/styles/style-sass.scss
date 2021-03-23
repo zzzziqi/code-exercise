@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./header";
+
+form button {
+  @include flexCenter(row, yellow);
+}
+form {
+  @extend header;
+  background-color: pink;
+  width: 100%-20%;
+}
