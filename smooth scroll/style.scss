@@ -1,0 +1,30 @@
+@mixin contentCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin contentFontSize {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-color: pink;
+  @include contentCenter();
+  @include contentFontSize();
+  a {
+    text-decoration: none;
+  }
+}
+.box2 {
+  @include contentCenter();
+  @include contentFontSize();
+  height: 100vh;
+  width: 100%;
+  background-color: purple;
+  a {
+    text-decoration: none;
+  }
+}
